@@ -1,3 +1,59 @@
-p {
-    color: red;
+.site-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center; 
+}
+
+.header{
+    border-style: solid;
+    border-color: red;
+    margin:50px;
+}
+
+.article-intro {
+    border-style: solid;
+    border-color: red;
+    margin:50px;
+    width:600px;
+}
+
+.article-body {
+    border-style: solid;
+    border-color: red;
+    margin:50px;
+    width:600px;
+    display:flex;
+    flex-direction: column;
+}
+
+.article-body-text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+}
+
+.bottom-of-article {
+    border-style: solid;
+    border-color: red;
+    margin:50px;
+    width:600px;
+}
+
+.recirculation {
+    border-style: solid;
+    border-color: red;
+    margin:50px;
+}
+
+.site-index {
+    border-style: solid;
+    border-color: red;
+    margin:50px;
+}
+
+.footer {
+    border-style: solid;
+    border-color: red;
+    margin:50px;
 }
