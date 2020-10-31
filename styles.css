@@ -1,8 +1,21 @@
+@font-face { font-family: Cheltenham; src: url('Cheltenham.ttf'); } 
+
 .site-content {
-    display: flex;
+    border-style: solid;
+    border-color: red;
+    display:flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     height: 100%;
-    align-items: center; 
+}
+
+.story {
+    border-style: solid;
+    border-color: red;
+    display:flex;
+    flex-direction: column;
+    align-content: center;
 }
 
 .header{
@@ -14,21 +27,34 @@
 .article-intro {
     border-style: solid;
     border-color: red;
-    margin:50px;
-    width:600px;
+    display:flex;
+    flex-direction: column;
+}
+
+.article-intro-heading {
+    border-style: solid;
+    border-color: red;
+    width: 600px;
+    align-self: center;
 }
 
 .article-intro-heading-title {
-    font-size:1.9375rem;
-    font-weight:700;
+    font-size:2.2rem;
+    font-weight:5000;
     font-style:italic;
+    font-family: Cheltenham;
+}
+
+.intro-image{
+    width: 1200px;
 }
 
 .article-body {
-    margin:50px;
+    align-self:center;
+    border-style: solid;
+    border-color: red;
+    margin:25px;
     width:600px;
-    display:flex;
-    flex-direction: column;
 }
 
 .article-body-text {
@@ -40,6 +66,7 @@
 .bottom-of-article {
     border-style: solid;
     border-color: red;
+    align-self: center;
     margin:50px;
     width:600px;
 }
