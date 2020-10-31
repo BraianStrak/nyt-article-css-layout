@@ -18,9 +18,13 @@
     width:600px;
 }
 
+.article-intro-heading-title {
+    font-size:1.9375rem;
+    font-weight:700;
+    font-style:italic;
+}
+
 .article-body {
-    border-style: solid;
-    border-color: red;
     margin:50px;
     width:600px;
     display:flex;
@@ -57,3 +61,8 @@
     border-color: red;
     margin:50px;
 }
+
+h2 {
+    padding: 0px;
+}
+
