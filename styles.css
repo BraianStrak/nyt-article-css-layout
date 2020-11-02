@@ -25,15 +25,11 @@
 }
 
 .article-intro {
-    border-style: solid;
-    border-color: red;
     display:flex;
     flex-direction: column;
 }
 
 .article-intro-heading {
-    border-style: solid;
-    border-color: red;
     width: 600px;
     align-self: center;
 }
@@ -49,11 +45,58 @@
     width: 1200px;
 }
 
+.article-intro-information {
+    align-self: center;
+    width:600px;
+}
+
+.start-of-article-date {
+    float: left;
+}
+
+.start-of-article-second-line-intro-wrapper{
+    float:right;
+}
+
+.article-author{
+    width: 600px;
+}
+
+.logo {
+    padding-left: 10px;
+}
+
+.circlelogo {
+    height: 27.5px;
+    margin-left: 9px;
+    width: 27.5px;
+    border-radius: 50%;
+    background-color: #eee;
+}
+
+.article-author{
+    padding-top: 40px;
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.start-of-article-date {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:500;
+    color:#333;
+    font-size: 0.8125rem;
+    line-height: 1rem;
+}
+
 .article-body {
     align-self:center;
     border-style: solid;
     border-color: red;
     margin:25px;
+    margin-bottom: 0px;
+    margin-top:0px;
     width:600px;
 }
 
@@ -63,33 +106,68 @@
     line-height: 1.875rem;
 }
 
+h2 {
+    padding: 0px;
+}
+
+.intro-image-description {
+    width: 740px;
+    margin:0px;
+    color: #666;
+}
+
+.article-video-description {
+    margin:0px;
+    color: #666;
+    font-style:bold;
+    margin-top: 5px;
+}
+
+.article-body-video {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
 .bottom-of-article {
-    border-style: solid;
-    border-color: red;
     align-self: center;
-    margin:50px;
+    margin:0px;
     width:600px;
 }
 
-.recirculation {
-    border-style: solid;
-    border-color: red;
-    margin:50px;
+.logo {
+    height: 25px;
+    width: 25px;
 }
 
-.site-index {
-    border-style: solid;
-    border-color: red;
-    margin:50px;
+.end-of-article-info {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:500;
+    color: rgb(102,102,102);
+    font-size: 0.75em;
+    line-height: 1rem;
+    margin-bottom: 1.5em;
 }
 
-.footer {
-    border-style: solid;
-    border-color: red;
-    margin:50px;
+.open-comments-button {
+    height: 36px;
+    width: 330px;
+    background-color:rgb(86,123,149);
+    float:left;
+    border-radius: 3px;
+    outline-style: thin;
+    outline-color: rgb(50,104,145);
 }
 
-h2 {
-    padding: 0px;
+.open-comments-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8125rem;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    padding-top: 10px;
+}
+
+.bottom-of-article-social-media-wrapper {
+    float:right;
 }
 
