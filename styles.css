@@ -179,3 +179,67 @@ h2 {
 .satellite-image {
     width: 720px;
 }
+
+.article-body-theory-of-inflation{
+    align-self: center;
+    border-style: solid;
+    border-color: red;
+    width: 925px;
+}
+
+.theory-of-inflation-title{
+    padding-bottom: 8px;
+    font-size: 1.25rem;
+    font-family: Cheltenham;
+    font-weight:700;
+
+}
+
+.theory-of-inflation-description{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:400;
+    color: #666;
+    font-size: 0.875em;
+    line-height: 1.125rem;
+}
+
+.theory-of-inflation-image{
+    width: 925px;
+}
+
+.article-body-theory-of-inflation-image-container{
+    width: 925px;
+}
+
+.inflation-image-description-container{
+    border-style: solid;
+    border-color: red;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.inflation-subimage-description-container {
+    width:218px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.inflation-image-whitespace{
+    width:925px;
+    height:100px;
+}
+
+.inflation-subimage-description-container-title{
+    font-size: 11px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    display:inline;
+    padding-right: 4px;
+}
+
+.inflation-subimage-description-container-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    display:inline;
+}
