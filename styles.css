@@ -1,8 +1,6 @@
 @font-face { font-family: Cheltenham; src: url('Cheltenham.ttf'); } 
 
 .site-content {
-    border-style: solid;
-    border-color: red;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -11,8 +9,6 @@
 }
 
 .story {
-    border-style: solid;
-    border-color: red;
     display:flex;
     flex-direction: column;
     align-content: center;
@@ -92,8 +88,6 @@
 
 .article-body {
     align-self:center;
-    border-style: solid;
-    border-color: red;
     margin:25px;
     margin-bottom: 0px;
     margin-top:0px;
@@ -183,6 +177,7 @@ h2 {
 .article-body-theory-of-inflation{
     align-self: center;
     width: 925px;
+    padding-bottom: 30px;
 }
 
 .theory-of-inflation-title{
@@ -221,7 +216,7 @@ h2 {
 .inflation-subimage-description-container {
     box-sizing: border-box;
     width:228px;
-    padding-left: 10px;
+    padding-left: 4px;
 }
 
 .inflation-image-whitespace{
@@ -241,5 +236,6 @@ h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     font-weight: 300;
+    line-height: 17px;
     display:inline;
 }
