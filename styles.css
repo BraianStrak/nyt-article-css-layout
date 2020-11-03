@@ -182,8 +182,6 @@ h2 {
 
 .article-body-theory-of-inflation{
     align-self: center;
-    border-style: solid;
-    border-color: red;
     width: 925px;
 }
 
@@ -208,25 +206,27 @@ h2 {
 }
 
 .article-body-theory-of-inflation-image-container{
+    position: relative;
     width: 925px;
 }
 
 .inflation-image-description-container{
-    border-style: solid;
-    border-color: red;
+    position: absolute;
+    top: 140px;
+    left: 0px;
     display:flex;
     flex-wrap: wrap;
 }
 
 .inflation-subimage-description-container {
-    width:218px;
-    padding-left: 5px;
-    padding-right: 5px;
+    box-sizing: border-box;
+    width:228px;
+    padding-left: 10px;
 }
 
 .inflation-image-whitespace{
     width:925px;
-    height:100px;
+    height:130px;
 }
 
 .inflation-subimage-description-container-title{
