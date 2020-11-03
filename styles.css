@@ -171,3 +171,11 @@ h2 {
     float:right;
 }
 
+.article-body-satellite-image {
+    align-self: center;
+    width:720px;
+}
+
+.satellite-image {
+    width: 720px;
+}
